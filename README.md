@@ -20,7 +20,7 @@ There are 3 questions needed to be discussed during the project:
 ## Methodology
 
 ### Clean the data for ratings
-+The column 'ratings' has string data type. However, one special thing about this column is that each row has a dictionary inside the string which has the keys as emotions and values as the count of viewers for each emotion. In this case, I use read_json to extract this column to seperate columns with each emotion as column name and the count as values in that column. 
++ The column 'ratings' has string data type. However, one special thing about this column is that each row has a dictionary inside the string which has the keys as emotions and values as the count of viewers for each emotion. In this case, I use read_json to extract this column to seperate columns with each emotion as column name and the count as values in that column. 
 
 ![image](https://user-images.githubusercontent.com/97778235/158616770-2ff1c84a-2f3c-4f86-b16e-023799361144.png)
 

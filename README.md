@@ -48,9 +48,18 @@ Question 2: What topics appear the most in top good/bad quality videos?
 
 I clean the text data for good along with bad videos and create a dictionary to count each words from 'tag' column. Tag column has string data type combining sevaral sub-topics inside. After cleaning, sort the data to see which topics appear the most in tag columns. From the top topic, I analyze the trend, speaker occupation and top sub-topics associated with top-topic for good videos only.
 
+![image](https://user-images.githubusercontent.com/97778235/158626499-ebf34eb9-e878-451b-bddb-02a3f29490c0.png)
+
+
 Question 3: What emotional rating represents TED videos with positive and negative ratings?
 
 For this question, I create a pivot_table to check the emotions to see any trend through time (by yearly and monthly) along with speaker's occupation for both positive and negative videos.  
+
+![image](https://user-images.githubusercontent.com/97778235/158626627-262e8a93-06a1-4f51-ac4a-ae971ef90253.png)
+Pie chart of positive videos
+
+![image](https://user-images.githubusercontent.com/97778235/158626771-0121b158-c471-43dc-a620-02fa0c6e94c2.png)
+Pie chart of negative videos
  
 ## Result
 After analyzing, here are some insights that I found for the 3 big questions above:

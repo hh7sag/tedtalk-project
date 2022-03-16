@@ -33,7 +33,16 @@ Negative videos: 'Longwinded','Unconvincing','Confusing','Obnoxious'
 It is done for cleaning data part. Then, moving on to explorative data analysis part
 
 ### Explorative data analysis
-Question 1: What factors make a good/bad quality TED Talk? 
+Question 1: What factors make a good/bad quality TED Talk?
++ To answer that question, I need to create 3 new columns of positive, negative and ok based on the count number of ratings along with 2 news column called ratio_good/view and ratio_bad/view describing the ratio between ratings and views and 1 column of comment to View Rate
++ Use quantitle to divide the group of positive/negative videos will be used for 2 remaining questions. This is based on like to view rate in this picture below: 
+++ Good videos are defined with positive/view from 60th-90th quantile
+++ Bad videos are defined with negative/view from 10th-30th quantile
+
+![image](https://user-images.githubusercontent.com/97778235/158620467-f851036b-1fed-4c41-b3fc-cf6fe790f930.png)
+
+
+
 
 ## Result
 ## Data Visualization

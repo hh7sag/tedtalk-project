@@ -20,13 +20,13 @@ There are 3 questions needed to be discussed during the project:
 ## Methodology
 
 ### Clean the data for ratings
-The column 'ratings' has string data type. However, one special thing about this column is that each row has a dictionary inside the string which has the keys as emotions and values as the count of viewers for each emotion. In this case, I use read_json to extract this column to seperate columns with each emotion as column name and the count as values in that column. 
++The column 'ratings' has string data type. However, one special thing about this column is that each row has a dictionary inside the string which has the keys as emotions and values as the count of viewers for each emotion. In this case, I use read_json to extract this column to seperate columns with each emotion as column name and the count as values in that column. 
 
 ![image](https://user-images.githubusercontent.com/97778235/158616770-2ff1c84a-2f3c-4f86-b16e-023799361144.png)
 
-After cleaning the ratings, create a new dataset name 'ted' with specific columns like 'comments','duration','film_date','languages','main_speaker','name', 'published_date','ratings', 'speaker_occupation','tags',	'title', 'views', 'Year_Month_filming', 'Year_Month_publishing','Year','transcript', 'Funny',	'Beautiful','Ingenious',	'Courageous',	'Longwinded','Confusing','Informative','Fascinating','Unconvincing','Persuasive','Jaw-dropping','OK',	'Obnoxious','Inspiring'
++After cleaning the ratings, create a new dataset name 'ted' with specific columns like 'comments','duration','film_date','languages','main_speaker','name', 'published_date','ratings', 'speaker_occupation','tags',	'title', 'views', 'Year_Month_filming', 'Year_Month_publishing','Year','transcript', 'Funny',	'Beautiful','Ingenious',	'Courageous',	'Longwinded','Confusing','Informative','Fascinating','Unconvincing','Persuasive','Jaw-dropping','OK',	'Obnoxious','Inspiring'
 
-There are 14 emotions overall that can be divided into positive and negative: 
++There are 14 emotions overall that can be divided into positive and negative: 
 Positive videos: 'Beautiful','Inspiring','Funny','Fascinating','Ingenious','Jaw-dropping','Courageous','Persuasive','Informative','OK'
 Negative videos: 'Longwinded','Unconvincing','Confusing','Obnoxious'
 
@@ -41,7 +41,8 @@ Question 1: What factors make a good/bad quality TED Talk?
 
 ![image](https://user-images.githubusercontent.com/97778235/158620467-f851036b-1fed-4c41-b3fc-cf6fe790f930.png)
 
-
++ Then, create a correlation matrix to see what factors affecting positive/negative views
+![image](https://user-images.githubusercontent.com/97778235/158621794-ac94d7ac-3c59-43cc-9cfd-1b93bafe8eb3.png)
 
 
 ## Result

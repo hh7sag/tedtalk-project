@@ -24,9 +24,9 @@ There are 3 questions needed to be discussed during the project:
 
 ![image](https://user-images.githubusercontent.com/97778235/158616770-2ff1c84a-2f3c-4f86-b16e-023799361144.png)
 
-+After cleaning the ratings, create a new dataset name 'ted' with specific columns like 'comments','duration','film_date','languages','main_speaker','name', 'published_date','ratings', 'speaker_occupation','tags',	'title', 'views', 'Year_Month_filming', 'Year_Month_publishing','Year','transcript', 'Funny',	'Beautiful','Ingenious',	'Courageous',	'Longwinded','Confusing','Informative','Fascinating','Unconvincing','Persuasive','Jaw-dropping','OK',	'Obnoxious','Inspiring'
++ After cleaning the ratings, create a new dataset name 'ted' with specific columns like 'comments','duration','film_date','languages','main_speaker','name', 'published_date','ratings', 'speaker_occupation','tags',	'title', 'views', 'Year_Month_filming', 'Year_Month_publishing','Year','transcript', 'Funny',	'Beautiful','Ingenious',	'Courageous',	'Longwinded','Confusing','Informative','Fascinating','Unconvincing','Persuasive','Jaw-dropping','OK',	'Obnoxious','Inspiring'
 
-+There are 14 emotions overall that can be divided into positive and negative: 
++ There are 14 emotions overall that can be divided into positive and negative: 
 Positive videos: 'Beautiful','Inspiring','Funny','Fascinating','Ingenious','Jaw-dropping','Courageous','Persuasive','Informative','OK'
 Negative videos: 'Longwinded','Unconvincing','Confusing','Obnoxious'
 
@@ -44,6 +44,38 @@ Question 1: What factors make a good/bad quality TED Talk?
 + Then, create a correlation matrix to see what factors affecting positive/negative views
 ![image](https://user-images.githubusercontent.com/97778235/158621794-ac94d7ac-3c59-43cc-9cfd-1b93bafe8eb3.png)
 
+Question 2: What topics appear the most in top good/bad quality videos?
 
+I clean the text data for good along with bad videos and create a dictionary to count each words from 'tag' column. Tag column has string data type combining sevaral sub-topics inside. After cleaning, sort the data to see which topics appear the most in tag columns. From the top topic, I analyze the trend, speaker occupation and top sub-topics associated with top-topic for good videos only.
+
+Question 3: What emotional rating represents TED videos with positive and negative ratings?
+
+For this question, I create a pivot_table to check the emotions to see any trend through time (by yearly and monthly) along with speaker's occupation for both positive and negative videos.  
+ 
 ## Result
+After analyzing, here are some insights that I found for the 3 big questions above:
+
+1. **What factors make a good/bad quality TED Talk?**
++ From correlation chart, we can conclude that positive/view and negative/view has a slight positive correlation with the number of positive and negative. Moreover, views have a strong positive correlation with positive videos while negative correlation with negative videos
+=> More views, more positive and less negative
++ Also, comments have a positive correlation with positive ratings and negative correlation with negative ratings => More comments, more positivity and less negativity
+However, the duration timestamp shows no correlation with the positive/negative ratings
+
+2. **What topics appear the most in top good/bad quality videos?**
+• Top 15 topics including technology, science, global, issues, culture, design, health, business, tedx, entertainment, change, art, social, in which technology takes the lead in all topics
+• Technology peak for 3 years from 2008-2011
+• Good-quality videos have speakers whose occupations are: Inventor, Entrepreneur, Artist
+• Top sub-topics associated with technology are design along with science
+
+3. **What emotional rating represents TED videos in positive and negative ways?**
+• Top emotion ruling positive videos is inspiring, meanwhile top emotion ruling negative video is unconvincing
+• Both positive and negative videos whose speaker's occupation are writer, designer
+• Inspiring: 2010-2012 (March) as peak time
+• Unconvincing: 2010 (July) as peak time
+• These emotions tend to get lower from 2015 onwards...
+
 ## Data Visualization
+For more information, please find my Google Colab and Google Data Studio as following links:
++ Google Colab: https://colab.research.google.com/drive/19_MCNK0tMyA3XmlUkITw8gDMSwjhHrYN#scrollTo=mBZzhAQ17GiR
++ GDS Dashboards: https://datastudio.google.com/u/0/reporting/4333faa2-8bed-4740-be71-bef16a2c2753/page/p_3nu0n867qc
+

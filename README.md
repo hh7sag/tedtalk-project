@@ -24,6 +24,16 @@ The column 'ratings' has string data type. However, one special thing about this
 
 ![image](https://user-images.githubusercontent.com/97778235/158616770-2ff1c84a-2f3c-4f86-b16e-023799361144.png)
 
+After cleaning the ratings, create a new dataset name 'ted' with specific columns like 'comments','duration','film_date','languages','main_speaker','name', 'published_date','ratings', 'speaker_occupation','tags',	'title', 'views', 'Year_Month_filming', 'Year_Month_publishing','Year','transcript', 'Funny',	'Beautiful','Ingenious',	'Courageous',	'Longwinded','Confusing','Informative','Fascinating','Unconvincing','Persuasive','Jaw-dropping','OK',	'Obnoxious','Inspiring'
+
+There are 14 emotions overall that can be divided into positive and negative: 
+Positive videos: 'Beautiful','Inspiring','Funny','Fascinating','Ingenious','Jaw-dropping','Courageous','Persuasive','Informative','OK'
+Negative videos: 'Longwinded','Unconvincing','Confusing','Obnoxious'
+
+It is done for cleaning data part. Then, moving on to explorative data analysis part
+
+### Explorative data analysis
+Question 1: What factors make a good/bad quality TED Talk? 
 
 ## Result
 ## Data Visualization

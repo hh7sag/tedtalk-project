@@ -61,7 +61,7 @@ Pie chart of positive videos
 ![image](https://user-images.githubusercontent.com/97778235/158626771-0121b158-c471-43dc-a620-02fa0c6e94c2.png)
 Pie chart of negative videos
  
-## Result
+## Results
 After analyzing, here are some insights that I found for the 3 big questions above:
 
 1. **What factors make a good/bad quality TED Talk?**

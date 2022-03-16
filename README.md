@@ -71,17 +71,17 @@ After analyzing, here are some insights that I found for the 3 big questions abo
 However, the duration timestamp shows no correlation with the positive/negative ratings
 
 2. **What topics appear the most in top good/bad quality videos?**
-• Top 15 topics including technology, science, global, issues, culture, design, health, business, tedx, entertainment, change, art, social, in which technology takes the lead in all topics
-• Technology peak for 3 years from 2008-2011
-• Good-quality videos have speakers whose occupations are: Inventor, Entrepreneur, Artist
-• Top sub-topics associated with technology are design along with science
++ Top 15 topics including technology, science, global, issues, culture, design, health, business, tedx, entertainment, change, art, social, in which technology takes the lead in all topics
++ Technology peak for 3 years from 2008-2011
++ Good-quality videos have speakers whose occupations are: Inventor, Entrepreneur, Artist
++ Top sub-topics associated with technology are design along with science
 
 3. **What emotional rating represents TED videos in positive and negative ways?**
-• Top emotion ruling positive videos is inspiring, meanwhile top emotion ruling negative video is unconvincing
-• Both positive and negative videos whose speaker's occupation are writer, designer
-• Inspiring: 2010-2012 (March) as peak time
-• Unconvincing: 2010 (July) as peak time
-• These emotions tend to get lower from 2015 onwards...
++ Top emotion ruling positive videos is inspiring, meanwhile top emotion ruling negative video is unconvincing
++ Both positive and negative videos whose speaker's occupation are writer, designer
++ Inspiring: 2010-2012 (March) as peak time
++ Unconvincing: 2010 (July) as peak time
++ These emotions tend to get lower from 2015 onwards...
 
 ## Data Visualization
 For more information, please find my Google Colab and Google Data Studio as following links:

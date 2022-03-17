@@ -43,7 +43,11 @@ Bad videos are defined with negative/view from 10th-30th quantile
 
 ![image](https://user-images.githubusercontent.com/97778235/158620467-f851036b-1fed-4c41-b3fc-cf6fe790f930.png)
 
-+ Then, create a correlation matrix to see what factors affecting positive/negative views
++ Then, create a correlation matrix to see what factors affecting positive/negative views, which I define
+Weak correlation: 0-0.3
+Moderate correlation:0.3-0.7
+Strong correlation: 0.7-1
+
 ![image](https://user-images.githubusercontent.com/97778235/158621794-ac94d7ac-3c59-43cc-9cfd-1b93bafe8eb3.png)
 
 Question 2: What topics appear the most in top good/bad quality videos?
@@ -67,9 +71,9 @@ Pie chart of negative videos
 After analyzing, here are some insights that I found for the 3 big questions above:
 
 1. **What factors make a good/bad quality TED Talk?**
-+ From correlation chart, we can conclude that positive/view and negative/view has a slight positive correlation with the number of positive and negative. Moreover, views have a strong positive correlation with positive videos while negative correlation with negative videos
-=> More views, more positive and less negative
-+ Also, comments have a positive correlation with positive ratings and negative correlation with negative ratings => More comments, more positivity and less negativity. However, the duration timestamp shows no correlation with the positive/negative ratings
++ From correlation chart, we can conclude that positive/view and negative/view has a slight positive correlation with the number of positive and negative. Moreover, views have a strong positive correlation with positive videos while negative correlation with negative videos 
+=> Videos get more views, the more postive ratings and less negative ratings in the videos
++ Also, comments have a positive correlation with positive ratings and negative correlation with negative ratings => Videos get more comments, the more postive ratings and less negative ratings in the videos. However, the duration timestamp shows no correlation with the positive/negative ratings
 
 2. **What topics appear the most in top good/bad quality videos?**
 + Top 15 topics including technology, science, global, issues, culture, design, health, business, tedx, entertainment, change, art, social, in which technology takes the lead in all topics

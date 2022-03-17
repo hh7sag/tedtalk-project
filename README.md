@@ -69,8 +69,7 @@ After analyzing, here are some insights that I found for the 3 big questions abo
 1. **What factors make a good/bad quality TED Talk?**
 + From correlation chart, we can conclude that positive/view and negative/view has a slight positive correlation with the number of positive and negative. Moreover, views have a strong positive correlation with positive videos while negative correlation with negative videos
 => More views, more positive and less negative
-+ Also, comments have a positive correlation with positive ratings and negative correlation with negative ratings => More comments, more positivity and less negativity
-However, the duration timestamp shows no correlation with the positive/negative ratings
++ Also, comments have a positive correlation with positive ratings and negative correlation with negative ratings => More comments, more positivity and less negativity. However, the duration timestamp shows no correlation with the positive/negative ratings
 
 2. **What topics appear the most in top good/bad quality videos?**
 + Top 15 topics including technology, science, global, issues, culture, design, health, business, tedx, entertainment, change, art, social, in which technology takes the lead in all topics

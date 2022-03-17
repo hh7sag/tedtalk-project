@@ -45,9 +45,9 @@ Bad videos are defined with negative/view from 10th-30th quantile
 
 + Then, create a correlation matrix to see what factors affecting positive/negative views, which I define:
 
-+ Weak correlation: 0-0.3
-+ Moderate correlation:0.3-0.7
-+ Strong correlation: 0.7-1
++ Weak correlation: 0->0.3 or (-0.3 -> 0)
++ Moderate correlation:0.3->0.7 or (-0.7 -> -0.3)
++ Strong correlation: 0.7->1 or (-1-> -0.7)
 
 ![image](https://user-images.githubusercontent.com/97778235/158621794-ac94d7ac-3c59-43cc-9cfd-1b93bafe8eb3.png)
 

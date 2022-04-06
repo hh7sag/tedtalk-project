@@ -51,12 +51,16 @@ Bad videos are defined with negative/view from 10th-30th quantile
 
 ![image](https://user-images.githubusercontent.com/97778235/158621794-ac94d7ac-3c59-43cc-9cfd-1b93bafe8eb3.png)
 
+From this correlation chart, we can conclude that positive/view and negative/view has a slight positive correlation with the number of positive and negative. Moreover, views have a strong positive correlation with positive videos while negative correlation with negative videos. In other words, videos get more views, the more postive ratings and less negative ratings in the videos. Also, comments have a positive correlation with positive ratings and negative correlation with negative ratings, which videos get more comments, the more postive ratings and less negative ratings in the videos. However, the duration timestamp shows no correlation with the positive/negative ratings
+
+
 Question 2: What topics appear the most in top good/bad quality videos?
 
 I clean the text data for good along with bad videos and create a dictionary to count each words from 'tag' column. Tag column has string data type combining sevaral sub-topics inside. After cleaning, sort the data to see which topics appear the most in tag columns. From the top topic, I analyze the trend, speaker occupation and top sub-topics associated with top-topic for good videos only.
 
 ![image](https://user-images.githubusercontent.com/97778235/158626499-ebf34eb9-e878-451b-bddb-02a3f29490c0.png)
 
+From counting the words, top 15 topics including technology, science, global, issues, culture, design, health, business, tedx, entertainment, change, art, social, in which technology takes the lead in all topics, which technology peak for 3 years from 2008-2011. Also, top sub-topics associated with technology are design along with science
 
 Question 3: What emotional rating represents TED videos with positive and negative ratings?
 
@@ -67,7 +71,9 @@ Pie chart of positive videos
 
 ![image](https://user-images.githubusercontent.com/97778235/158626771-0121b158-c471-43dc-a620-02fa0c6e94c2.png)
 Pie chart of negative videos
- 
+
+As can be seen from the pie charts, emotion ruling positive videos is inspiring, meanwhile top emotion ruling negative video is unconvincing
+
 ## Results
 After analyzing, here are some insights that I found for the 3 big questions above:
 
